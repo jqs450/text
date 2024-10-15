@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* 淡蓝色背景 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    width: 80%;
+    max-width: 700px;
+    padding: 40px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px; /* 增大标题字体 */
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+#question p {
+    font-size: 22px; /* 增大问题文本字体 */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+    font-size: 20px; /* 增大选项字体 */
+    color: #555;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 15px;
+    margin: 20px 0;
+    width: calc(100% - 30px);
+    font-size: 20px; /* 增大输入框字体 */
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 20px 0;
+    font-size: 20px; /* 增大按钮字体 */
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    font-size: 20px; /* 增大反馈字体 */
+    color: #333;
+    margin-top: 30px;
+}
+
+#feedback.completed {
+    font-size: 32px; /* 与标题字体相同 */
+    color: #007bff;
+    margin-top: 50px;
+}
